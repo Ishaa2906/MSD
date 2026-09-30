@@ -7,7 +7,7 @@ app.use(express.json());
 
 mongoose.connect("mongodb://127.0.0.1:27017/secure_file_db")
     .then(() => {
-        console.log("Database connected");
+        console.log("Database connected success");
     })
     .catch((err) => {
         console.log("Database connection error:", err);
